@@ -1,14 +1,17 @@
+import { ScrollProgress } from "@/components/ui/scroll-progress";
+import { HeroSection } from "@/src/hero/components/organisms/hero-section/hero-section";
 import { TestimonialSection } from "@/src/testimonials/components/organisms/testimonial-section/testimonial-section";
 
 export default function Home() {
   return (
     <main>
-      <section
-        id="hero"
-        className="flex flex-col items-center justify-center h-screen"
-      >
-        <h1 className="text-4xl font-bold">Hello World</h1>
-      </section>
+      <ScrollProgress
+        className="top-[65px]"
+        fromColor="#00913f"
+        viaColor="#11b856"
+        toColor="#000000"
+      />
+      <HeroSection />
       <section
         id="portfolio"
         className="flex flex-col items-center justify-center h-screen"
