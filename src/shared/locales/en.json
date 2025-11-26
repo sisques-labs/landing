@@ -95,7 +95,25 @@
     "WorkProcessSection": {
       "title": "How We Work",
       "description": "Our structured process ensures exceptional results in every project, from conception to launch.",
-      "learnMore": "Learn More"
+      "learnMore": "Learn More",
+      "steps": {
+        "discovery": {
+          "name": "Discovery",
+          "description": "We start by understanding your business goals, target audience, and project requirements through comprehensive research and analysis."
+        },
+        "design": {
+          "name": "Design",
+          "description": "Our design team creates beautiful, user-friendly interfaces that align with your brand and provide exceptional user experiences."
+        },
+        "development": {
+          "name": "Development",
+          "description": "We build robust, scalable applications using the latest technologies and best practices to ensure high performance and maintainability."
+        },
+        "launch": {
+          "name": "Launch",
+          "description": "We ensure a smooth deployment process and provide ongoing support to help your product succeed in the market."
+        }
+      }
     },
     "TechnologiesSection": {
       "title": "Technologies",

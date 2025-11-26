@@ -95,7 +95,25 @@
     "WorkProcessSection": {
       "title": "¿Cómo trabajamos?",
       "description": "Nuestro proceso estructurado garantiza resultados excepcionales en cada proyecto, desde la concepción hasta el lanzamiento.",
-      "learnMore": "Saber más"
+      "learnMore": "Saber más",
+      "steps": {
+        "discovery": {
+          "name": "Descubrimiento",
+          "description": "Comenzamos comprendiendo tus objetivos de negocio, audiencia objetivo y requisitos del proyecto a través de una investigación y análisis exhaustivos."
+        },
+        "design": {
+          "name": "Diseño",
+          "description": "Nuestro equipo de diseño crea interfaces hermosas y fáciles de usar que se alinean con tu marca y brindan experiencias de usuario excepcionales."
+        },
+        "development": {
+          "name": "Desarrollo",
+          "description": "Construimos aplicaciones robustas y escalables utilizando las últimas tecnologías y mejores prácticas para garantizar alto rendimiento y mantenibilidad."
+        },
+        "launch": {
+          "name": "Lanzamiento",
+          "description": "Aseguramos un proceso de despliegue fluido y brindamos soporte continuo para ayudar a que tu producto tenga éxito en el mercado."
+        }
+      }
     },
     "TechnologiesSection": {
       "title": "Tecnologías",
