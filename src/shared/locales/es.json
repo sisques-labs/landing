@@ -1,30 +1,122 @@
 {
   "LandingPage": {
+    "Navbar": {
+      "items": {
+        "services": "Servicios",
+        "portfolio": "Portafolio",
+        "work-process": "Proceso de Trabajo",
+        "technologies": "Tecnologías",
+        "testimonials": "Testimonios",
+        "contact": "Contacto"
+      }
+    },
     "HeroSection": {
       "title": "Sisques Labs",
+      "badge": "Agencia de Desarrollo",
       "description1": "Desarrollador Full Stack",
       "description2": "Creo aplicaciones web y móviles",
-      "description3": "Creo aplicaciones web y móviles"
+      "description3": "Transformamos ideas en soluciones digitales",
+      "cta": {
+        "primary": "Ver Proyectos",
+        "secondary": "Contactar"
+      }
+    },
+    "ServicesSection": {
+      "title": "Nuestros Servicios",
+      "description": "Ofrecemos soluciones tecnológicas completas para transformar tu negocio digital",
+      "services": {
+        "web-development": {
+          "title": "Desarrollo Web",
+          "description": "Creamos aplicaciones web modernas, escalables y de alto rendimiento utilizando las últimas tecnologías del mercado.",
+          "features": {
+            "0": "Aplicaciones React/Next.js",
+            "1": "APIs RESTful y GraphQL",
+            "2": "Arquitectura escalable",
+            "3": "Optimización SEO"
+          }
+        },
+        "mobile-development": {
+          "title": "Desarrollo Móvil",
+          "description": "Desarrollamos aplicaciones móviles nativas e híbridas para iOS y Android con excelente experiencia de usuario.",
+          "features": {
+            "0": "Apps nativas iOS/Android",
+            "1": "React Native",
+            "2": "UI/UX optimizado",
+            "3": "Publicación en stores"
+          }
+        },
+        "integrations": {
+          "title": "Integraciones",
+          "description": "Conectamos tus sistemas con APIs, servicios de terceros y plataformas existentes para optimizar tus procesos.",
+          "features": {
+            "0": "APIs de terceros",
+            "1": "Webhooks y automatizaciones",
+            "2": "Sincronización de datos",
+            "3": "Migración de sistemas"
+          }
+        },
+        "r-d-i": {
+          "title": "I+D+I",
+          "description": "Investigamos y desarrollamos soluciones innovadoras utilizando tecnologías emergentes como IA, blockchain y más.",
+          "features": {
+            "0": "Prototipado rápido",
+            "1": "Tecnologías emergentes",
+            "2": "Análisis de viabilidad",
+            "3": "Innovación continua"
+          }
+        },
+        "consulting": {
+          "title": "Consultoría Técnica",
+          "description": "Te ayudamos a tomar decisiones tecnológicas estratégicas y optimizar tu arquitectura de software.",
+          "features": {
+            "0": "Arquitectura de software",
+            "1": "Auditorías técnicas",
+            "2": "Mejores prácticas",
+            "3": "Roadmap tecnológico"
+          }
+        },
+        "maintenance": {
+          "title": "Mantenimiento y Soporte",
+          "description": "Ofrecemos soporte continuo, actualizaciones de seguridad y mejoras para mantener tus aplicaciones al día.",
+          "features": {
+            "0": "Soporte 24/7",
+            "1": "Actualizaciones de seguridad",
+            "2": "Monitoreo y alertas",
+            "3": "Optimización continua"
+          }
+        }
+      }
     },
     "PortfolioSection": {
       "title": "Portafolio",
-      "description": "Esta es una descripción de la sección de portafolio"
+      "description": "Explora algunos de nuestros proyectos más destacados y descubre cómo transformamos ideas en soluciones digitales innovadoras.",
+      "viewProject": "Ver Proyecto"
     },
     "WorkProcessSection": {
       "title": "¿Cómo trabajamos?",
-      "description": "¿Cómo trabajamos?"
+      "description": "Nuestro proceso estructurado garantiza resultados excepcionales en cada proyecto, desde la concepción hasta el lanzamiento.",
+      "learnMore": "Saber más"
     },
     "TechnologiesSection": {
       "title": "Tecnologías",
-      "description": "Tecnologías"
+      "description": "Utilizamos las tecnologías más modernas y confiables para construir aplicaciones escalables y de alto rendimiento."
     },
     "TestimonialSection": {
-      "title": "Testimonios",
-      "description": "Testimonios"
+      "title": "Lo que dicen nuestros clientes",
+      "description": "Descubre cómo hemos ayudado a empresas a alcanzar sus objetivos digitales con soluciones innovadoras y de alta calidad."
     },
     "ContactSection": {
       "title": "Contacto",
-      "description": "Contacto"
+      "description": "¿Tienes un proyecto en mente? Estamos aquí para ayudarte. Contáctanos y hablemos sobre cómo podemos hacer realidad tus ideas.",
+      "form": {
+        "name": "Nombre",
+        "namePlaceholder": "Tu nombre",
+        "email": "Email",
+        "emailPlaceholder": "tu@email.com",
+        "message": "Mensaje",
+        "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
+        "submit": "Enviar Mensaje"
+      }
     }
   }
 }

@@ -1,13 +1,122 @@
 {
   "LandingPage": {
+    "Navbar": {
+      "items": {
+        "services": "Services",
+        "portfolio": "Portfolio",
+        "work-process": "Work Process",
+        "technologies": "Technologies",
+        "testimonials": "Testimonials",
+        "contact": "Contact"
+      }
+    },
     "HeroSection": {
-      "title": "Hello World",
-      "description": "This is a hero section description"
+      "title": "Sisques Labs",
+      "badge": "Development Agency",
+      "description1": "Full Stack Developer",
+      "description2": "I create web and mobile applications",
+      "description3": "We transform ideas into digital solutions",
+      "cta": {
+        "primary": "View Projects",
+        "secondary": "Get in Touch"
+      }
+    },
+    "ServicesSection": {
+      "title": "Our Services",
+      "description": "We offer complete technological solutions to transform your digital business",
+      "services": {
+        "web-development": {
+          "title": "Web Development",
+          "description": "We create modern, scalable, and high-performance web applications using the latest market technologies.",
+          "features": {
+            "0": "React/Next.js Applications",
+            "1": "RESTful and GraphQL APIs",
+            "2": "Scalable Architecture",
+            "3": "SEO Optimization"
+          }
+        },
+        "mobile-development": {
+          "title": "Mobile Development",
+          "description": "We develop native and hybrid mobile applications for iOS and Android with excellent user experience.",
+          "features": {
+            "0": "Native iOS/Android Apps",
+            "1": "React Native",
+            "2": "Optimized UI/UX",
+            "3": "Store Publishing"
+          }
+        },
+        "integrations": {
+          "title": "Integrations",
+          "description": "We connect your systems with APIs, third-party services, and existing platforms to optimize your processes.",
+          "features": {
+            "0": "Third-party APIs",
+            "1": "Webhooks and Automations",
+            "2": "Data Synchronization",
+            "3": "System Migration"
+          }
+        },
+        "r-d-i": {
+          "title": "R&D&I",
+          "description": "We research and develop innovative solutions using emerging technologies like AI, blockchain, and more.",
+          "features": {
+            "0": "Rapid Prototyping",
+            "1": "Emerging Technologies",
+            "2": "Feasibility Analysis",
+            "3": "Continuous Innovation"
+          }
+        },
+        "consulting": {
+          "title": "Technical Consulting",
+          "description": "We help you make strategic technological decisions and optimize your software architecture.",
+          "features": {
+            "0": "Software Architecture",
+            "1": "Technical Audits",
+            "2": "Best Practices",
+            "3": "Technology Roadmap"
+          }
+        },
+        "maintenance": {
+          "title": "Maintenance & Support",
+          "description": "We offer continuous support, security updates, and improvements to keep your applications up to date.",
+          "features": {
+            "0": "24/7 Support",
+            "1": "Security Updates",
+            "2": "Monitoring and Alerts",
+            "3": "Continuous Optimization"
+          }
+        }
+      }
+    },
+    "PortfolioSection": {
+      "title": "Portfolio",
+      "description": "Explore some of our most outstanding projects and discover how we transform ideas into innovative digital solutions.",
+      "viewProject": "View Project"
+    },
+    "WorkProcessSection": {
+      "title": "How We Work",
+      "description": "Our structured process ensures exceptional results in every project, from conception to launch.",
+      "learnMore": "Learn More"
+    },
+    "TechnologiesSection": {
+      "title": "Technologies",
+      "description": "We use the most modern and reliable technologies to build scalable, high-performance applications."
     },
     "TestimonialSection": {
-      "title": "Testimonials",
-      "description": "This is a testimonials section description"
+      "title": "What our clients say",
+      "description": "Discover how we've helped companies achieve their digital goals with innovative and high-quality solutions."
+    },
+    "ContactSection": {
+      "title": "Contact",
+      "description": "Have a project in mind? We're here to help. Get in touch and let's talk about how we can bring your ideas to life.",
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "Your name",
+        "email": "Email",
+        "emailPlaceholder": "your@email.com",
+        "message": "Message",
+        "messagePlaceholder": "Tell us about your project...",
+        "submit": "Send Message"
+      }
     }
   }
 }
-

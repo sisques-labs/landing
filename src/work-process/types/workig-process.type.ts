@@ -1,5 +1,5 @@
 export type WorkProcess = {
-  Icon: React.ReactNode;
+  Icon: React.ElementType;
   name: string;
   description: string;
   href: string;
