@@ -13,9 +13,9 @@
     "HeroSection": {
       "title": "Sisques Labs",
       "badge": "Development Agency",
-      "description1": "Full Stack Developer",
-      "description2": "I create web and mobile applications",
-      "description3": "We transform ideas into digital solutions",
+      "description1": "We develop software that drives your business",
+      "description2": "Scalable and high-performance technological solutions",
+      "description3": "We transform ideas into successful digital products",
       "cta": {
         "primary": "View Projects",
         "secondary": "Get in Touch"
