@@ -12,9 +12,9 @@ export default function Home() {
     <main>
       <ScrollProgress
         className="top-[65px]"
-        fromColor="#00913f"
-        viaColor="#11b856"
-        toColor="#000000"
+        fromColor="#3b82f6"
+        viaColor="#60a5fa"
+        toColor="#93c5fd"
       />
       <HeroSection />
       <ServicesSection />
