@@ -1,5 +1,6 @@
 import { routing } from "@/src/shared/i18n/routing";
 import { Navbar } from "@/src/shared/components/organisms/navbar/navbar";
+import { Footer } from "@/src/shared/components/organisms/footer/footer";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
@@ -59,6 +60,7 @@ export default async function LocaleLayout({
           <NextIntlClientProvider messages={messages}>
             <Navbar />
             {children}
+            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

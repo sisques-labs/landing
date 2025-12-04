@@ -135,6 +135,30 @@
         "messagePlaceholder": "Cuéntanos sobre tu proyecto...",
         "submit": "Enviar Mensaje"
       }
+    },
+    "Footer": {
+      "description": "Transformamos ideas en soluciones digitales innovadoras. Especialistas en desarrollo web, móvil e integraciones.",
+      "quickLinks": "Enlaces Rápidos",
+      "moreLinks": "Más Información",
+      "contact": "Contacto",
+      "email": "contact@sisqueslabs.com",
+      "location": "España",
+      "copyright": "© {year} Sisques Labs. Todos los derechos reservados.",
+      "scrollToTop": "Volver arriba",
+      "links": {
+        "services": "Servicios",
+        "portfolio": "Portafolio",
+        "work-process": "Proceso de Trabajo",
+        "technologies": "Tecnologías",
+        "testimonials": "Testimonios",
+        "contact": "Contacto"
+      },
+      "social": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "twitter": "Twitter",
+        "email": "Email"
+      }
     }
   }
 }

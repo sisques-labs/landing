@@ -4,3 +4,5 @@ export type Technology = {
   category: string;
 };
 
+
+
