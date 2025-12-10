@@ -6,6 +6,7 @@ export type PortfolioItem = {
   technologies: string[];
   href: string;
   category: string;
+  emoji?: string;
 };
 
 

@@ -2,16 +2,9 @@ import { BentoCard, BentoGrid } from "@/components/ui/bento-grid";
 import { BlurFade } from "@/components/ui/blur-fade";
 import { usePortfolio } from "@/src/portfolio/hooks/use-portfolio";
 import { SectionTemplate } from "@/src/shared/components/templates/section-template";
-import { Code, Globe, Smartphone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-
-const iconMap: Record<string, React.ElementType> = {
-  "Web App": Globe,
-  "Mobile App": Smartphone,
-  Dashboard: Code,
-};
 
 export const PortfolioSection = () => {
   const t = useTranslations("LandingPage.PortfolioSection");
@@ -34,7 +27,6 @@ export const PortfolioSection = () => {
         <BlurFade delay={0.2}>
           <BentoGrid className="md:grid-cols-3 lg:grid-cols-3">
             {portfolioItems.map((item, index) => {
-              const Icon = iconMap[item.category] || Globe;
               return (
                 <BentoCard
                   key={item.id}
@@ -42,7 +34,7 @@ export const PortfolioSection = () => {
                   description={item.description}
                   href={item.href}
                   cta={t("viewProject")}
-                  Icon={Icon}
+                  emoji={item.emoji}
                   className="col-span-3 md:col-span-1"
                   background={
                     <div className="absolute inset-0 overflow-hidden">

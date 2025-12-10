@@ -90,7 +90,15 @@
     "PortfolioSection": {
       "title": "Portfolio",
       "description": "Explore some of our most outstanding projects and discover how we transform ideas into innovative digital solutions.",
-      "viewProject": "View Project"
+      "viewProject": "View Project",
+      "projects": {
+        "apex-engineer": {
+          "description": "Real-time AI race engineer for sim racing enthusiasts. Provides actionable insights about car performance, strategy, and telemetry during gameplay. Our solution helps sim racers identify problems in their cars automatically and quickly, allowing them to make informed decisions to optimize their performance."
+        },
+        "pest-patrol": {
+          "description": "AI-Powered plant pest and disease detection using computer vision. Our solution helps farmers and gardeners identify problems in crops automatically and quickly, allowing them to make informed decisions to protect and optimize the health of their plants."
+        }
+      }
     },
     "WorkProcessSection": {
       "title": "How We Work",

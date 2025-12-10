@@ -90,7 +90,15 @@
     "PortfolioSection": {
       "title": "Portafolio",
       "description": "Explora algunos de nuestros proyectos más destacados y descubre cómo transformamos ideas en soluciones digitales innovadoras.",
-      "viewProject": "Ver Proyecto"
+      "viewProject": "Ver Proyecto",
+      "projects": {
+        "apex-engineer": {
+          "description": "Ingeniero virtual de carreras impulsado por IA, diseñado para entusiastas del sim racing. Ofrece recomendaciones estratégicas en tiempo real y analiza la telemetría y el rendimiento del coche para optimizar tus decisiones durante cada carrera."
+        },
+        "pest-patrol": {
+          "description": "Detección de plagas y enfermedades en plantas mediante inteligencia artificial usando visión por computador. Analiza imágenes de cultivos para identificar problemas de forma automática y rápida, ayudando a los agricultores a tomar decisiones tempranas y proteger sus cosechas con mayor precisión."
+        }
+      }
     },
     "WorkProcessSection": {
       "title": "¿Cómo trabajamos?",
