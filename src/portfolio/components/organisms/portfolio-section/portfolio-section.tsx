@@ -42,10 +42,10 @@ export const PortfolioSection = () => {
                         src={item.image}
                         alt={item.title}
                         fill
-                        className="object-cover opacity-20 dark:opacity-30 group-hover:opacity-30 dark:group-hover:opacity-40 transition-opacity duration-500"
+                        className="object-cover opacity-35 dark:opacity-30 group-hover:opacity-45 dark:group-hover:opacity-40 transition-opacity duration-500"
                       />
-                      <div className="absolute inset-0 bg-white/40 dark:bg-transparent" />
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-primary/5 to-transparent group-hover:from-primary/30 transition-all duration-500" />
+                      <div className="absolute inset-0 bg-white/20 dark:bg-transparent" />
+                      <div className="absolute inset-0 bg-gradient-to-br from-primary/15 via-primary/3 to-transparent group-hover:from-primary/25 transition-all duration-500" />
                     </div>
                   }
                 />
