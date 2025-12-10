@@ -32,9 +32,15 @@ export const usePortfolio = (): PortfolioItem[] => {
       href: "#",
       category: "Dashboard",
     },
+    {
+      id: "4",
+      title: "ApexEngineer",
+      description:
+        "Real-time AI race engineer for sim racing enthusiasts. Provides actionable insights about car performance, strategy, and telemetry during gameplay.",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+      technologies: ["Python", "GPT4All", "AI"],
+      href: "https://sisques-labs.github.io/apex-engineer/",
+      category: "Web App",
+    },
   ];
 };
-
-
-
-
